@@ -160,7 +160,7 @@ const Tab = ({ config, queue }: TabProps) => {
   }
 
   if (!config.format) {
-    config.format = "mp3-320";
+    config.format = "wav";
   }
 
   const configManager = new ConfigManager(config);
