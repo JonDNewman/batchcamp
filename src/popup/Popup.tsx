@@ -7,7 +7,7 @@ import { Configuration, configurationStore as store } from "../storage";
 import { FormatEnum, Message } from "../types";
 
 const DEFAULT_STATE: Configuration = {
-  format: "mp3-320",
+  format: "wav",
   concurrency: 3,
 };
 
